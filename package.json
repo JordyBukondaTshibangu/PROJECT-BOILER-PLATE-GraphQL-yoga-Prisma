@@ -2,10 +2,10 @@
   "name": "lesson1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "babel-node src/index.js",
-    "dev": " nodemon src/index.js --ext js,graphql --exec babel-node",
+    "start": "babel-node src/server.js",
+    "dev": " nodemon src/server.js --ext js,graphql --exec babel-node",
     "get-schema": "graphql get-schema -p PRISMA"
   },
   "author": "",
